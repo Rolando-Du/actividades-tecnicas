@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    background-color: rgb(154, 182, 189);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    margin: 100px;
+}
+
+.matriz-container{
+    width: 600px;
+    height: 250px;
+    background-color: rgb(14, 96, 143);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px rgb(20, 59, 71);
+}
+
+.fila{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.elemento{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(40, 140, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 5px solid  rgb(37, 33, 73);
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.vacio{
+    opacity: 0.5;
+    
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid  rgb(68, 133, 84);
+    padding: 10px;
+    background-color: rgb(2, 93, 179);
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.btn:hover {
+    background-color: rgb(183, 186, 187);
+    color: rgb(14, 13, 13);
+    transform: scale(1.2);
+}
+
+/* 
+.anim-typewriter {
+    display: block;
+    font-family: cursive;
+    color: rgb(12, 48, 251);
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 23ch;
+    font-size: 30px;
+    animation: typing 6s steps(23) infinite, blink 3s infinite step-end alternate;
+    overflow: hidden;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    2% {
+        border-color: rgb(255, 255, 255);
+    }
+} */
