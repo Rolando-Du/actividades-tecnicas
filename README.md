@@ -1,9 +1,16 @@
 # Getting Started with Create React 
 
-////////////////////////////////////////////////////////////////////////////////////////////////////
 En este repositorio, el la rama Máster se encuentra el proyecto del Form hecho en React
+
+consignas:
+Los 3 primeros campos deben ser obligatorios
+Al hacer click en Submit debe generar un objeto con la estructura 
+{name:input.value, email: input.value, password: input.value, textarea: input.value},
+el cual deberá mostrarse en un modal en formato de JSON.
+Sólo deberá aparecer el modal en caso de tener completo los campos requeridos
 Utilicé el Formik para validación del mismo .
-///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
