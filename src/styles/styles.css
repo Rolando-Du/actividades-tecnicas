@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.p-5 {
+    background-color: rgb(193, 197, 195);
+    color: rgb(0, 0, 0);
+}
+
+
+#btn-submit {
+    color: rgb(0, 0, 0);
+    background-color: rgb(102, 101, 101);
+    border-color: rgb(7, 7, 7);
+    border-style: solid;
+    font-weight: bold;
+
+}
+
+#btn-submit:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 8, 8);
+    transform: scale(1.2);
+}
